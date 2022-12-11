@@ -14,7 +14,7 @@ namespace WATickets.Models.Cliente
 
         public virtual DbSet<Barrios> Barrios { get; set; }
         public virtual DbSet<BitacoraErrores> BitacoraErrores { get; set; }
-        public virtual DbSet<BitacoraMovimientos> BitacoraMovimientos { get; set; }
+      
         public virtual DbSet<Bodegas> Bodegas { get; set; }
 
         public virtual DbSet<Cantones> Cantones { get; set; }
@@ -56,13 +56,9 @@ namespace WATickets.Models.Cliente
                 .Property(e => e.JSON)
                 .IsUnicode(false);
 
-            modelBuilder.Entity<BitacoraMovimientos>()
-                .Property(e => e.Descripcion)
-                .IsUnicode(false);
+     
 
-            modelBuilder.Entity<BitacoraMovimientos>()
-                .Property(e => e.Metodo)
-                .IsUnicode(false);
+         
 
             modelBuilder.Entity<Bodegas>()
                 .Property(e => e.CodSuc)

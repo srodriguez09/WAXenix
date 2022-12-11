@@ -237,7 +237,6 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\BarriosController.cs" />
     <Compile Include="Controllers\BitacoraController.cs" />
-    <Compile Include="Controllers\BitacoraMovimientosController.cs" />
     <Compile Include="Controllers\BodegasController.cs" />
     <Compile Include="Controllers\CantonesController.cs" />
     <Compile Include="Controllers\CategoriasController.cs" />
@@ -259,7 +258,6 @@
     <Compile Include="Models\APIS\SucursalesViewModel.cs" />
     <Compile Include="Models\Cliente\Barrios.cs" />
     <Compile Include="Models\Cliente\BitacoraErrores.cs" />
-    <Compile Include="Models\Cliente\BitacoraMovimientos.cs" />
     <Compile Include="Models\Cliente\Bodegas.cs" />
     <Compile Include="Models\Cliente\Cantones.cs" />
     <Compile Include="Models\Cliente\Categorias.cs" />
